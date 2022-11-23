@@ -1,0 +1,101 @@
+.latest-match {
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #475569;
+  background-color: #1e293b;
+  margin-top: 0px;
+  font-family: 'Bree Serif';
+}
+@media (min-width: 767px) {
+  .latest-match {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.match-top {
+  text-align: left;
+}
+.match-overview {
+  border-bottom: 2px solid #475569;
+  width: 100%;
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (min-width: 767px) {
+  .match-overview {
+    width: 65%;
+    border: none;
+  }
+}
+
+.opp-team {
+  width: 90px;
+  height: 90px;
+}
+@media (min-width: 767px) {
+  .opp-team {
+    width: 150px;
+    height: 150px;
+  }
+}
+.latest-match-bottom {
+  text-align: right;
+  padding: 10px;
+}
+@media (min-width: 767px) {
+  .latest-match-bottom {
+    padding: 20px;
+  }
+}
+.opp-team-heading {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 600;
+}
+@media (min-width: 767px) {
+  .opp-team-heading {
+    font-size: 34px;
+  }
+}
+.team-para {
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 5px;
+  width: 100%;
+  text-align: left;
+}
+.team-para1 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 5px;
+  width: 100%;
+  text-align: left;
+}
+.team-bottom-headings {
+  font-size: 16px;
+  width: 100%;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: left;
+}
+@media (min-width: 767px) {
+  .team-bottom-headings {
+    text-align: right;
+    font-size: 22px;
+  }
+
+  .team-para {
+    text-align: right;
+    font-size: 16px;
+  }
+  .team-para1 {
+    text-align: left;
+    font-size: 16px;
+  }
+}
